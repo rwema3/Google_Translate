@@ -4,3 +4,4 @@ import 'package:google_translate_s/models/languages/language.dart';
 
 class TranslationEntity with WithPreferencesSerializable {
   final Language from;
+  final Language to;
