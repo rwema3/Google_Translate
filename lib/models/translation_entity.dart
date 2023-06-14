@@ -8,3 +8,5 @@ class TranslationEntity with WithPreferencesSerializable {
   final String detected;
   final String source;
   final String translation;
+
+  TranslationEntity(
