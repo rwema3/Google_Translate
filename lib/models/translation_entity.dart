@@ -29,3 +29,4 @@ class TranslationEntity with WithPreferencesSerializable {
   Map<String, Object> toMap() {
     return {
       'source': source,
+      'translation': translation,
