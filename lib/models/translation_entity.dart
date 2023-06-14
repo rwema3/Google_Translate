@@ -15,3 +15,5 @@ class TranslationEntity with WithPreferencesSerializable {
       @required this.from,
       @required this.to,
       @required this.detected});
+
+  static TranslationEntity fromMap(Map<String, Object> data) {
