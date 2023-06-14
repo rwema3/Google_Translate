@@ -26,3 +26,4 @@ class TranslationEntity with WithPreferencesSerializable {
   }
 
   @override
+  Map<String, Object> toMap() {
