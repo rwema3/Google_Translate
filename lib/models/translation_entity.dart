@@ -17,3 +17,4 @@ class TranslationEntity with WithPreferencesSerializable {
       @required this.detected});
 
   static TranslationEntity fromMap(Map<String, Object> data) {
+    return TranslationEntity(
