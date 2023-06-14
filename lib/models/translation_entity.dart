@@ -13,3 +13,4 @@ class TranslationEntity with WithPreferencesSerializable {
       {@required this.source,
       @required this.translation,
       @required this.from,
+      @required this.to,
