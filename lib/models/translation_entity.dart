@@ -7,3 +7,4 @@ class TranslationEntity with WithPreferencesSerializable {
   final Language to;
   final String detected;
   final String source;
+  final String translation;
