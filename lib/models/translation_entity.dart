@@ -31,3 +31,4 @@ class TranslationEntity with WithPreferencesSerializable {
       'source': source,
       'translation': translation,
       'detected': detected,
+      'from': from.toJson(),
