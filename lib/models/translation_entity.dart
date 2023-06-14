@@ -10,3 +10,4 @@ class TranslationEntity with WithPreferencesSerializable {
   final String translation;
 
   TranslationEntity(
+      {@required this.source,
