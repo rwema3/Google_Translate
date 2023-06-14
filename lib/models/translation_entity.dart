@@ -25,3 +25,4 @@ class TranslationEntity with WithPreferencesSerializable {
         detected: data['detected']);
   }
 
+  @override
