@@ -18,3 +18,4 @@ class TranslationEntity with WithPreferencesSerializable {
 
   static TranslationEntity fromMap(Map<String, Object> data) {
     return TranslationEntity(
+        source: data['source'],
