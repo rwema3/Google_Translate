@@ -30,3 +30,4 @@ class TranslationEntity with WithPreferencesSerializable {
     return {
       'source': source,
       'translation': translation,
+      'detected': detected,
