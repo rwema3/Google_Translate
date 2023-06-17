@@ -17,18 +17,7 @@ class TranslationEntity with WithPreferencesSerializable {
       @required this.detected});
 
   static TranslationEntity fromMap(Map<String, Object> data) {
-    return TranslationEntity(
-        source: data['source'],
-        translation: data['translation'],
-        from: Language.fromJsonMap(data['from']),
-        to: Language.fromJsonMap(data['to']),
-        detected: data['detected']);
-  }
-
-  @override
-  Map<String, Object> toMap() {
-    return {
-      'source': source,
+     'source': source,
       'translation': translation,
       'detected': detected,
       'from': from.toJson(),
