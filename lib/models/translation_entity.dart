@@ -19,6 +19,8 @@ class TranslationEntity with WithPreferencesSerializable {
   static TranslationEntity fromMap(Map<String, Object> data) {
     return TranslationEntity(
         source: data['source'],
+        translation: data['translation'],
+        from: Language.fromJsonMap(data['from']),
      'source': source,
       'translation': translation,
       'detected': detected,
